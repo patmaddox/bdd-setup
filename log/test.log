@@ -1,0 +1,122 @@
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSELECT count(*) AS count_all FROM "people" [0m
+
+
+Processing FoosController#create (for 0.0.0.0 at 2009-02-27 11:42:02) [POST]
+  Parameters: {"person"=>{"first_name"=>"Pat", "last_name"=>"Maddox"}}
+
+
+Processing FoosController#create (for 0.0.0.0 at 2009-02-27 11:42:02) [POST]
+  Parameters: {"person"=>{"first_name"=>"Pat", "last_name"=>"Maddox"}}
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSELECT count(*) AS count_all FROM "people" [0m
+
+
+Processing FoosController#create (for 0.0.0.0 at 2009-02-27 11:42:43) [POST]
+  Parameters: {"person"=>{"first_name"=>"Pat", "last_name"=>"Maddox"}}
+  [4;35;1mPerson Create (0.5ms)[0m   [0mINSERT INTO "people" ("updated_at", "first_name", "last_name", "created_at") VALUES('2009-02-27 19:42:43', 'Pat', 'Maddox', '2009-02-27 19:42:43')[0m
+
+
+Processing FoosController#create (for 0.0.0.0 at 2009-02-27 11:42:43) [POST]
+  Parameters: {"person"=>{"first_name"=>"Pat", "last_name"=>"Maddox"}}
+  [4;36;1mPerson Create (0.5ms)[0m   [0;1mINSERT INTO "people" ("updated_at", "first_name", "last_name", "created_at") VALUES('2009-02-27 19:42:43', 'Pat', 'Maddox', '2009-02-27 19:42:43')[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSELECT count(*) AS count_all FROM "people" [0m
+
+
+Processing FoosController#create (for 0.0.0.0 at 2009-02-27 11:42:56) [POST]
+  Parameters: {"person"=>{"first_name"=>"Pat", "last_name"=>"Maddox"}}
+  [4;35;1mPerson Create (0.5ms)[0m   [0mINSERT INTO "people" ("updated_at", "first_name", "last_name", "created_at") VALUES('2009-02-27 19:42:56', 'Pat', 'Maddox', '2009-02-27 19:42:56')[0m
+Completed in 7ms (View: 0, DB: 1) | 200 OK [http://test.host/foos?person%5Bfirst_name%5D=Pat&person%5Blast_name%5D=Maddox]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "people" [0m
+
+
+Processing FoosController#create (for 0.0.0.0 at 2009-02-27 11:42:56) [POST]
+  Parameters: {"person"=>{"first_name"=>"Pat", "last_name"=>"Maddox"}}
+  [4;35;1mPerson Create (0.5ms)[0m   [0mINSERT INTO "people" ("updated_at", "first_name", "last_name", "created_at") VALUES('2009-02-27 19:42:56', 'Pat', 'Maddox', '2009-02-27 19:42:56')[0m
+Completed in 3ms (View: 0, DB: 1) | 200 OK [http://test.host/foos?person%5Bfirst_name%5D=Pat&person%5Blast_name%5D=Maddox]
+REQUESTING PAGE: GET /foos/new with {} and HTTP headers {}
+
+
+Processing FoosController#new (for 127.0.0.1 at 2009-02-27 11:46:49) [GET]
+Rendering foos/new
+REQUESTING PAGE: GET /foos/new with {} and HTTP headers {}
+
+
+Processing FoosController#new (for 127.0.0.1 at 2009-02-27 11:47:31) [GET]
+Rendering foos/new
+Completed in 11ms (View: 5, DB: 0) | 200 OK [http://www.example.com/foos/new]
+REQUESTING PAGE: GET /foos/new with {} and HTTP headers {}
+
+
+Processing FoosController#new (for 127.0.0.1 at 2009-02-27 11:47:58) [GET]
+Rendering foos/new
+Completed in 7ms (View: 4, DB: 0) | 200 OK [http://www.example.com/foos/new]
+REQUESTING PAGE: GET /foos/new with {} and HTTP headers {}
+
+
+Processing FoosController#new (for 127.0.0.1 at 2009-02-27 11:48:26) [GET]
+Rendering foos/new
+Completed in 7ms (View: 4, DB: 0) | 200 OK [http://www.example.com/foos/new]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSELECT count(*) AS count_all FROM "people" [0m
+
+
+Processing FoosController#create (for 0.0.0.0 at 2009-02-27 11:49:38) [POST]
+  Parameters: {"person"=>{"first_name"=>"Pat", "last_name"=>"Maddox"}}
+  [4;35;1mPerson Create (0.5ms)[0m   [0mINSERT INTO "people" ("updated_at", "first_name", "last_name", "created_at") VALUES('2009-02-27 19:49:38', 'Pat', 'Maddox', '2009-02-27 19:49:38')[0m
+Completed in 7ms (View: 0, DB: 1) | 200 OK [http://test.host/foos?person%5Bfirst_name%5D=Pat&person%5Blast_name%5D=Maddox]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "people" [0m
+
+
+Processing FoosController#new (for 0.0.0.0 at 2009-02-27 11:49:38) [GET]
+Rendering foos/new
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://test.host/foos/new]
+REQUESTING PAGE: GET /foos/new with {} and HTTP headers {}
+
+
+Processing FoosController#new (for 127.0.0.1 at 2009-02-27 11:49:47) [GET]
+Rendering foos/new
+Completed in 7ms (View: 4, DB: 0) | 200 OK [http://www.example.com/foos/new]
+REQUESTING PAGE: POST /foos with {"commit"=>"Submit", "person"=>{"first_name"=>"Pat", "last_name"=>"Maddox"}} and HTTP headers {"HTTP_REFERER"=>"/foos/new"}
+
+
+Processing FoosController#create (for 127.0.0.1 at 2009-02-27 11:49:47) [POST]
+  Parameters: {"commit"=>"Submit", "person"=>{"first_name"=>"Pat", "last_name"=>"Maddox"}}
+  [4;36;1mPerson Create (0.5ms)[0m   [0;1mINSERT INTO "people" ("updated_at", "first_name", "last_name", "created_at") VALUES('2009-02-27 19:49:47', 'Pat', 'Maddox', '2009-02-27 19:49:47')[0m
+Completed in 3ms (View: 0, DB: 1) | 200 OK [http://www.example.com/foos]
+REQUESTING PAGE: GET /foos/new with {} and HTTP headers {}
+
+
+Processing FoosController#new (for 127.0.0.1 at 2009-02-27 11:50:34) [GET]
+Rendering foos/new
+Completed in 8ms (View: 4, DB: 0) | 200 OK [http://www.example.com/foos/new]
+REQUESTING PAGE: POST /foos with {"commit"=>"Submit", "person"=>{"first_name"=>"Pat", "last_name"=>"Maddox"}} and HTTP headers {"HTTP_REFERER"=>"/foos/new"}
+
+
+Processing FoosController#create (for 127.0.0.1 at 2009-02-27 11:50:34) [POST]
+  Parameters: {"commit"=>"Submit", "person"=>{"first_name"=>"Pat", "last_name"=>"Maddox"}}
+  [4;36;1mPerson Create (4.8ms)[0m   [0;1mINSERT INTO "people" ("updated_at", "first_name", "last_name", "created_at") VALUES('2009-02-27 19:50:34', 'Pat', 'Maddox', '2009-02-27 19:50:34')[0m
+Completed in 8ms (View: 0, DB: 5) | 200 OK [http://www.example.com/foos]
+
+
+Processing FoosController#new (for 0.0.0.0 at 2009-02-27 11:51:44) [GET]
+Rendering foos/new
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://test.host/foos/new]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSELECT count(*) AS count_all FROM "people" [0m
+
+
+Processing FoosController#create (for 0.0.0.0 at 2009-02-27 11:51:44) [POST]
+  Parameters: {"person"=>{"first_name"=>"Pat", "last_name"=>"Maddox"}}
+  [4;35;1mPerson Create (0.5ms)[0m   [0mINSERT INTO "people" ("updated_at", "first_name", "last_name", "created_at") VALUES('2009-02-27 19:51:44', 'Pat', 'Maddox', '2009-02-27 19:51:44')[0m
+Completed in 3ms (View: 0, DB: 1) | 200 OK [http://test.host/foos?person%5Bfirst_name%5D=Pat&person%5Blast_name%5D=Maddox]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "people" [0m
+REQUESTING PAGE: GET /foos/new with {} and HTTP headers {}
+
+
+Processing FoosController#new (for 127.0.0.1 at 2009-02-27 11:51:48) [GET]
+Rendering foos/new
+Completed in 7ms (View: 3, DB: 0) | 200 OK [http://www.example.com/foos/new]
+REQUESTING PAGE: POST /foos with {"commit"=>"Submit", "person"=>{"first_name"=>"Pat", "last_name"=>"Maddox"}} and HTTP headers {"HTTP_REFERER"=>"/foos/new"}
+
+
+Processing FoosController#create (for 127.0.0.1 at 2009-02-27 11:51:48) [POST]
+  Parameters: {"commit"=>"Submit", "person"=>{"first_name"=>"Pat", "last_name"=>"Maddox"}}
+  [4;36;1mPerson Create (0.6ms)[0m   [0;1mINSERT INTO "people" ("updated_at", "first_name", "last_name", "created_at") VALUES('2009-02-27 19:51:48', 'Pat', 'Maddox', '2009-02-27 19:51:48')[0m
+Completed in 3ms (View: 0, DB: 1) | 200 OK [http://www.example.com/foos]
